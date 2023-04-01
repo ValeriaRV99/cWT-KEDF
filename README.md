@@ -3,7 +3,7 @@ In KS-DFFT the kinetic energy of non-interacting electrons $T_{s}$ is  described
 
 $T_{s}[n]=\sum_{i}\langle \phi_i|-\frac{1}{2}\nabla^2|\phi_i\rangle$
 
-The Kinetic energy depends on the one-electron orbital that scales the computational cost  like $\mathcal{O}(N^3)$. On the other hand, Orbital free Density Functional Theory (OFDFT) is a computationally attractive alternative to KSDFT. However, not just the Exchange-Correlation term needs to be approximated; it is also necessary to approximate the Kinetic energy as a functional of the electronic density (Kenetic energy density functional).
+The Kinetic energy depends on the one-electron orbital that scales the computational cost  like $\mathcal{O}(N^3)$. On the other hand, Orbital free Density Functional Theory (OFDFT) is an alternative to KSDFT. However, not just the Exchange-Correlation term needs to be approximated; it is also necessary to approximate the Kinetic energy as a functional of the electronic density (Kenetic energy density functional).
 
 The KEDFT contains the local, semilocal and non-local contribution. Wang and Teter proposed a non-local approximation for $T_{s}$
 
