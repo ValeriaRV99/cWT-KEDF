@@ -1,0 +1,209 @@
+
+     Program PWSCF v.6.5 starts on 20Mar2023 at 16:43:26 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Serial version
+     Reading input from /home/valeria/Documents/DFTPY/Fitting_densities/Si7-CD/DATA2/Si11.in
+Warning: card &IONS ignored
+Warning: card / ignored
+Warning: card &CELL ignored
+Warning: card / ignored
+Warning: card &FCP ignored
+Warning: card / ignored
+Warning: card &RISM ignored
+Warning: card / ignored
+
+     Current dimensions of program PWSCF are:
+     Max number of different atomic species (ntypx) = 10
+     Max number of k-points (npk) =  40000
+     Max angular momentum in pseudopotentials (lmaxx) =  3
+
+     WARNING: check_stop already initialized
+     Message from routine setup:
+     using ibrav=0 with symmetry is DISCOURAGED, use correct ibrav instead
+
+     G-vector sticks info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Sum        2109    2109    593                73447    73447   11067
+
+
+
+     bravais-lattice index     =            0
+     lattice parameter (alat)  =      10.5443  a.u.
+     unit-cell volume          =    1172.3327 (a.u.)^3
+     number of atoms/cell      =            7
+     number of atomic types    =            1
+     number of electrons       =        28.00
+     number of Kohn-Sham states=           18
+     kinetic-energy cutoff     =      60.0000  Ry
+     charge density cutoff     =     240.0000  Ry
+     convergence threshold     =      1.0E-06
+     mixing beta               =       0.7000
+     number of iterations used =            8  plain     mixing
+     Exchange-correlation= LDA
+                           (   1   1   0   0   0   0   0)
+
+     celldm(1)=  10.544281  celldm(2)=   0.000000  celldm(3)=   0.000000
+     celldm(4)=   0.000000  celldm(5)=   0.000000  celldm(6)=   0.000000
+
+     crystal axes: (cart. coord. in units of alat)
+               a(1) = (   1.000000   0.000000   0.000000 )  
+               a(2) = (   0.000000   1.000000   0.000000 )  
+               a(3) = (   0.000000   0.000000   1.000000 )  
+
+     reciprocal axes: (cart. coord. in units 2 pi/alat)
+               b(1) = (  1.000000  0.000000  0.000000 )  
+               b(2) = (  0.000000  1.000000  0.000000 )  
+               b(3) = (  0.000000  0.000000  1.000000 )  
+
+
+     PseudoPot. # 1 for Si read from file:
+     /home/valeria/Desktop/programs/dftpy/examples/ofpp/EAC/upf/blps/si.lda.upf
+     MD5 check sum: 946fc5a8d23174f015515f8139e499ed
+     Pseudo is Norm-conserving, Zval =  4.0
+     DFTpy
+     Using radial grid of 1601 points,  1 beta functions with: 
+                l(1) =   0
+
+     atomic species   valence    mass     pseudopotential
+        Si             4.00    28.08000     Si( 1.00)
+
+     24 Sym. Ops. (no inversion) found (18 have fractional translation)
+
+
+
+   Cartesian axes
+
+     site n.     atom                  positions (alat units)
+         1           Si  tau(   1) = (   0.0000000   0.0000000   0.0000000  )
+         2           Si  tau(   2) = (   0.0000000   0.5000000   0.5000000  )
+         3           Si  tau(   3) = (   0.2500000   0.7500000   0.7500000  )
+         4           Si  tau(   4) = (   0.5000000   0.0000000   0.5000000  )
+         5           Si  tau(   5) = (   0.7500000   0.2500000   0.7500000  )
+         6           Si  tau(   6) = (   0.5000000   0.5000000   0.0000000  )
+         7           Si  tau(   7) = (   0.7500000   0.7500000   0.2500000  )
+
+     number of k points=   220  Gaussian smearing, width (Ry)=  0.0050
+
+     Number of k-points >= 100: set verbosity='high' to print them.
+
+     Dense  grid:    73447 G-vectors     FFT dimensions: (  54,  54,  54)
+
+     Estimated max dynamical RAM per process >     621.31 MB
+
+     Initial potential from superposition of free atoms
+
+     starting charge   27.99552, renormalised to   28.00000
+     Starting wfcs are random
+
+     total cpu time spent up to now is       29.8 secs
+
+     Self-consistent Calculation
+
+     iteration #  1     ecut=    60.00 Ry     beta= 0.70
+     Davidson diagonalization with overlap
+     ethr =  1.00E-02,  avg # of iterations =  7.6
+
+     Threshold (ethr) on eigenvalues was too large:
+     Diagonalizing with lowered threshold
+
+     Davidson diagonalization with overlap
+     ethr =  4.83E-04,  avg # of iterations =  1.5
+
+     total cpu time spent up to now is      343.2 secs
+
+     total energy              =     -56.16640081 Ry
+     Harris-Foulkes estimate   =     -56.21866283 Ry
+     estimated scf accuracy    <       0.13588127 Ry
+
+     iteration #  2     ecut=    60.00 Ry     beta= 0.70
+     Davidson diagonalization with overlap
+     ethr =  4.85E-04,  avg # of iterations =  2.0
+
+     total cpu time spent up to now is      431.9 secs
+
+     total energy              =     -56.17765069 Ry
+     Harris-Foulkes estimate   =     -56.19579496 Ry
+     estimated scf accuracy    <       0.03136387 Ry
+
+     iteration #  3     ecut=    60.00 Ry     beta= 0.70
+     Davidson diagonalization with overlap
+     ethr =  1.12E-04,  avg # of iterations =  2.1
+
+     total cpu time spent up to now is      523.4 secs
+
+     total energy              =     -56.18571808 Ry
+     Harris-Foulkes estimate   =     -56.18817156 Ry
+     estimated scf accuracy    <       0.00526957 Ry
+
+     iteration #  4     ecut=    60.00 Ry     beta= 0.70
+     Davidson diagonalization with overlap
+     ethr =  1.88E-05,  avg # of iterations =  3.4
+
+     total cpu time spent up to now is      614.3 secs
+
+     total energy              =     -56.18666158 Ry
+     Harris-Foulkes estimate   =     -56.18668388 Ry
+     estimated scf accuracy    <       0.00004571 Ry
+
+     iteration #  5     ecut=    60.00 Ry     beta= 0.70
+     Davidson diagonalization with overlap
+     ethr =  1.63E-07,  avg # of iterations =  5.4
+
+     total cpu time spent up to now is      746.0 secs
+
+     total energy              =     -56.18668907 Ry
+     Harris-Foulkes estimate   =     -56.18669104 Ry
+     estimated scf accuracy    <       0.00000437 Ry
+
+     iteration #  6     ecut=    60.00 Ry     beta= 0.70
+     Davidson diagonalization with overlap
+     ethr =  1.56E-08,  avg # of iterations =  2.0
+
+     total cpu time spent up to now is      833.5 secs
+
+     End of self-consistent calculation
+
+     Number of k-points >= 100: set verbosity='high' to print the bands.
+
+     the Fermi energy is     4.3574 ev
+
+!    total energy              =     -56.18668951 Ry
+     Harris-Foulkes estimate   =     -56.18668968 Ry
+     estimated scf accuracy    <       0.00000024 Ry
+
+     The total energy is the sum of the following terms:
+
+     one-electron contribution =       7.77208438 Ry
+     hartree contribution      =       5.44738578 Ry
+     xc contribution           =     -16.05641312 Ry
+     ewald contribution        =     -53.34924025 Ry
+     smearing contrib. (-TS)   =      -0.00050629 Ry
+
+     convergence has been achieved in   6 iterations
+
+ Energies determined by pw2casino tool
+ -------------------------------------
+ Kinetic energy      9.7620554634048951       au  =     19.524110926809790       Ry
+ Local energy       -5.8760132735412567       au  =    -11.752026547082513       Ry
+ Non-Local energy    0.0000000000000000       au  =     0.0000000000000000       Ry
+ Ewald energy       -26.674620127017675       au  =    -53.349240254035351       Ry
+ xc contribution    -8.0282065608535262       au  =    -16.056413121707052       Ry
+ hartree energy      2.7236928901342359       au  =     5.4473857802684718       Ry
+ Smearing (-TS)     -2.5314519002275787E-004  au  =    -5.0629038004551573E-004  Ry
+ Total energy       -28.093344753046825       au  =    -56.186689506093650       Ry
+ -------------------------------------
+ Total energy0      -28.093344753063349       au  =    -56.186689506126697       Ry
+ External energy0    0.0000000000000000       au  =     0.0000000000000000       Ry
+ -------------------------------------
+
+
+     Writing output data file ./si.save/
