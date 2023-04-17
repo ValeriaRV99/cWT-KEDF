@@ -1,0 +1,192 @@
+
+     Program PWSCF v.6.5 starts on  6Apr2023 at 13:44:23 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Serial version
+     Reading input from /home/vr371/cWT-KEDF/Interphases/DATA/Btin_fcc/DATA2/Si0.in
+Warning: card &IONS ignored
+Warning: card / ignored
+Warning: card &CELL ignored
+Warning: card / ignored
+Warning: card &FCP ignored
+Warning: card / ignored
+Warning: card &RISM ignored
+Warning: card / ignored
+
+     Current dimensions of program PWSCF are:
+     Max number of different atomic species (ntypx) = 10
+     Max number of k-points (npk) =  40000
+     Max angular momentum in pseudopotentials (lmaxx) =  3
+
+     G-vector sticks info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Sum        4041    4041   1093               296447   296447   41813
+
+
+
+     bravais-lattice index     =            0
+     lattice parameter (alat)  =      14.5433  a.u.
+     unit-cell volume          =    4719.5769 (a.u.)^3
+     number of atoms/cell      =           98
+     number of atomic types    =            1
+     number of electrons       =       392.00
+     number of Kohn-Sham states=          235
+     kinetic-energy cutoff     =      60.0000  Ry
+     charge density cutoff     =     240.0000  Ry
+     convergence threshold     =      1.0E-06
+     mixing beta               =       0.7000
+     number of iterations used =            8  plain     mixing
+     Exchange-correlation= LDA
+                           (   1   1   0   0   0   0   0)
+
+     celldm(1)=  14.543332  celldm(2)=   0.000000  celldm(3)=   0.000000
+     celldm(4)=   0.000000  celldm(5)=   0.000000  celldm(6)=   0.000000
+
+     crystal axes: (cart. coord. in units of alat)
+               a(1) = (   1.000000   0.000000   0.000000 )  
+               a(2) = (   0.000000   1.000000   0.000000 )  
+               a(3) = (   0.000000   0.000000   1.534304 )  
+
+     reciprocal axes: (cart. coord. in units 2 pi/alat)
+               b(1) = (  1.000000  0.000000  0.000000 )  
+               b(2) = (  0.000000  1.000000  0.000000 )  
+               b(3) = (  0.000000  0.000000  0.651762 )  
+
+
+     PseudoPot. # 1 for Si read from file:
+     /home/vr371/PP/ofpp/EAC/upf/blps/si.lda.upf
+     MD5 check sum: 946fc5a8d23174f015515f8139e499ed
+     Pseudo is Norm-conserving, Zval =  4.0
+     DFTpy
+     Using radial grid of 1601 points,  1 beta functions with: 
+                l(1) =   0
+
+     atomic species   valence    mass     pseudopotential
+        Si             4.00    28.08000     Si( 1.00)
+
+     No symmetry found
+
+
+
+   Cartesian axes
+
+     site n.     atom                  positions (alat units)
+         1           Si  tau(   1) = (   0.0000000   0.0000000   0.0000000  )
+         2           Si  tau(   2) = (   0.2500000   0.2500000   0.1377339  )
+         3           Si  tau(   3) = (   0.0000000   0.2500000   0.0688669  )
+         4           Si  tau(   4) = (   0.2500000   0.0000000   0.2066008  )
+         5           Si  tau(   5) = (   0.0000000   0.0000000   0.2754678  )
+         6           Si  tau(   6) = (   0.2500000   0.2500000   0.4132017  )
+         7           Si  tau(   7) = (   0.0000000   0.2500000   0.3443347  )
+         8           Si  tau(   8) = (   0.2500000   0.0000000   0.4820686  )
+         9           Si  tau(   9) = (   0.0000000   0.0000000   0.5509356  )
+        10           Si  tau(  10) = (   0.2500000   0.2500000   0.6886694  )
+        11           Si  tau(  11) = (   0.0000000   0.2500000   0.6198025  )
+        12           Si  tau(  12) = (   0.2500000   0.0000000   0.7575364  )
+        13           Si  tau(  13) = (   0.0000000   0.5000000   0.0000000  )
+        14           Si  tau(  14) = (   0.2500000   0.7500000   0.1377339  )
+        15           Si  tau(  15) = (   0.0000000   0.7500000   0.0688669  )
+        16           Si  tau(  16) = (   0.2500000   0.5000000   0.2066008  )
+        17           Si  tau(  17) = (   0.0000000   0.5000000   0.2754678  )
+        18           Si  tau(  18) = (   0.2500000   0.7500000   0.4132017  )
+        19           Si  tau(  19) = (   0.0000000   0.7500000   0.3443347  )
+        20           Si  tau(  20) = (   0.2500000   0.5000000   0.4820686  )
+        21           Si  tau(  21) = (   0.0000000   0.5000000   0.5509356  )
+        22           Si  tau(  22) = (   0.2500000   0.7500000   0.6886694  )
+        23           Si  tau(  23) = (   0.0000000   0.7500000   0.6198025  )
+        24           Si  tau(  24) = (   0.2500000   0.5000000   0.7575364  )
+        25           Si  tau(  25) = (   0.5000000   0.0000000   0.0000000  )
+        26           Si  tau(  26) = (   0.7500000   0.2500000   0.1377339  )
+        27           Si  tau(  27) = (   0.5000000   0.2500000   0.0688669  )
+        28           Si  tau(  28) = (   0.7500000   0.0000000   0.2066008  )
+        29           Si  tau(  29) = (   0.5000000   0.0000000   0.2754678  )
+        30           Si  tau(  30) = (   0.7500000   0.2500000   0.4132017  )
+        31           Si  tau(  31) = (   0.5000000   0.2500000   0.3443347  )
+        32           Si  tau(  32) = (   0.7500000   0.0000000   0.4820686  )
+        33           Si  tau(  33) = (   0.5000000   0.0000000   0.5509356  )
+        34           Si  tau(  34) = (   0.7500000   0.2500000   0.6886694  )
+        35           Si  tau(  35) = (   0.5000000   0.2500000   0.6198025  )
+        36           Si  tau(  36) = (   0.7500000   0.0000000   0.7575364  )
+        37           Si  tau(  37) = (   0.5000000   0.5000000   0.0000000  )
+        38           Si  tau(  38) = (   0.7500000   0.7500000   0.1377339  )
+        39           Si  tau(  39) = (   0.5000000   0.7500000   0.0688669  )
+        40           Si  tau(  40) = (   0.7500000   0.5000000   0.2066008  )
+        41           Si  tau(  41) = (   0.5000000   0.5000000   0.2754678  )
+        42           Si  tau(  42) = (   0.7500000   0.7500000   0.4132017  )
+        43           Si  tau(  43) = (   0.5000000   0.7500000   0.3443347  )
+        44           Si  tau(  44) = (   0.7500000   0.5000000   0.4820686  )
+        45           Si  tau(  45) = (   0.5000000   0.5000000   0.5509356  )
+        46           Si  tau(  46) = (   0.7500000   0.7500000   0.6886694  )
+        47           Si  tau(  47) = (   0.5000000   0.7500000   0.6198025  )
+        48           Si  tau(  48) = (   0.7500000   0.5000000   0.7575364  )
+        49           Si  tau(  49) = (   0.0000000   0.0000000   0.8264033  )
+        50           Si  tau(  50) = (   0.0000000   0.1769751   1.0033784  )
+        51           Si  tau(  51) = (   0.1769751   0.0000000   1.0033784  )
+        52           Si  tau(  52) = (   0.1769751   0.1769751   0.8264033  )
+        53           Si  tau(  53) = (   0.0000000   0.0000000   1.1803534  )
+        54           Si  tau(  54) = (   0.0000000   0.1769751   1.3573285  )
+        55           Si  tau(  55) = (   0.1769751   0.0000000   1.3573285  )
+        56           Si  tau(  56) = (   0.1769751   0.1769751   1.1803534  )
+        57           Si  tau(  57) = (   0.0000000   0.3539501   0.8264033  )
+        58           Si  tau(  58) = (   0.0000000   0.5309252   1.0033784  )
+        59           Si  tau(  59) = (   0.1769751   0.3539501   1.0033784  )
+        60           Si  tau(  60) = (   0.1769751   0.5309252   0.8264033  )
+        61           Si  tau(  61) = (   0.0000000   0.3539501   1.1803534  )
+        62           Si  tau(  62) = (   0.0000000   0.5309252   1.3573285  )
+        63           Si  tau(  63) = (   0.1769751   0.3539501   1.3573285  )
+        64           Si  tau(  64) = (   0.1769751   0.5309252   1.1803534  )
+        65           Si  tau(  65) = (   0.0000000   0.7079002   0.8264033  )
+        66           Si  tau(  66) = (   0.1769751   0.7079002   1.0033784  )
+        67           Si  tau(  67) = (   0.0000000   0.7079002   1.1803534  )
+        68           Si  tau(  68) = (   0.1769751   0.7079002   1.3573285  )
+        69           Si  tau(  69) = (   0.3539501   0.0000000   0.8264033  )
+        70           Si  tau(  70) = (   0.3539501   0.1769751   1.0033784  )
+        71           Si  tau(  71) = (   0.5309252   0.0000000   1.0033784  )
+        72           Si  tau(  72) = (   0.5309252   0.1769751   0.8264033  )
+        73           Si  tau(  73) = (   0.3539501   0.0000000   1.1803534  )
+        74           Si  tau(  74) = (   0.3539501   0.1769751   1.3573285  )
+        75           Si  tau(  75) = (   0.5309252   0.0000000   1.3573285  )
+        76           Si  tau(  76) = (   0.5309252   0.1769751   1.1803534  )
+        77           Si  tau(  77) = (   0.3539501   0.3539501   0.8264033  )
+        78           Si  tau(  78) = (   0.3539501   0.5309252   1.0033784  )
+        79           Si  tau(  79) = (   0.5309252   0.3539501   1.0033784  )
+        80           Si  tau(  80) = (   0.5309252   0.5309252   0.8264033  )
+        81           Si  tau(  81) = (   0.3539501   0.3539501   1.1803534  )
+        82           Si  tau(  82) = (   0.3539501   0.5309252   1.3573285  )
+        83           Si  tau(  83) = (   0.5309252   0.3539501   1.3573285  )
+        84           Si  tau(  84) = (   0.5309252   0.5309252   1.1803534  )
+        85           Si  tau(  85) = (   0.3539501   0.7079002   0.8264033  )
+        86           Si  tau(  86) = (   0.5309252   0.7079002   1.0033784  )
+        87           Si  tau(  87) = (   0.3539501   0.7079002   1.1803534  )
+        88           Si  tau(  88) = (   0.5309252   0.7079002   1.3573285  )
+        89           Si  tau(  89) = (   0.7079002   0.0000000   0.8264033  )
+        90           Si  tau(  90) = (   0.7079002   0.1769751   1.0033784  )
+        91           Si  tau(  91) = (   0.7079002   0.0000000   1.1803534  )
+        92           Si  tau(  92) = (   0.7079002   0.1769751   1.3573285  )
+        93           Si  tau(  93) = (   0.7079002   0.3539501   0.8264033  )
+        94           Si  tau(  94) = (   0.7079002   0.5309252   1.0033784  )
+        95           Si  tau(  95) = (   0.7079002   0.3539501   1.1803534  )
+        96           Si  tau(  96) = (   0.7079002   0.5309252   1.3573285  )
+        97           Si  tau(  97) = (   0.7079002   0.7079002   0.8264033  )
+        98           Si  tau(  98) = (   0.7079002   0.7079002   1.1803534  )
+
+     number of k points=  4000  Gaussian smearing, width (Ry)=  0.0050
+
+     Number of k-points >= 100: set verbosity='high' to print them.
+
+     Dense  grid:   296447 G-vectors     FFT dimensions: (  72,  72, 120)
+
+     Estimated max dynamical RAM per process >     520.26 GB
+
+     Initial potential from superposition of free atoms
+
+     starting charge  391.93728, renormalised to  392.00000
+     Starting wfcs are random
